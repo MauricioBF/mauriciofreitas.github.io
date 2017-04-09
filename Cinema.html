@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cine DBO 2017</title>
+		<link rel="stylesheet" href="Cinema.css">
+	</head>
+	<body>
+	<div align="center">
+		<br>
+		<table><!--TABLE DA TELA-->
+			<thead>
+				<caption>Tela</caption>
+			</thead>
+		</table>
+		<br><br><br><br><br>
+		<table id="lugares"><!--TABLE DAS FILEIRAS-->
+			<tbody>
+				<tr><!--FILEIRA A-->
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+				</tr>
+				<tr><!--FILEIRA B-->
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+				</tr>
+				<tr><!--FILEIRA C-->
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+				</tr>
+				<tr><!--FILEIRA D-->
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="limpo"></td>
+					<td class="limpo"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+				</tr>
+				<tr><!--FILEIRA E-->
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+					<td class="lugar"></td>
+				</tr>
+			</tbody>
+		</table>
+		<br><br>
+		<table><!--TABLE DA LEGENDA DE CORES DE ENTRADA-->
+			<tr>
+				<td class="originput"></td>
+				<td>Inteira</td>
+				<td class="turn"></td>
+				<td class="auxinput"></td>
+				<td>Meia</td>
+			</tr>
+		</table>
+		<table><!--TABLE DO INPUT-->
+			<tr>
+				<td>
+					<input id="qualquer">
+				</td>
+				<td class="turn2"></td>
+				<td>
+					<p class="nova" id="sem"></p>
+				</td>
+			</tr>
+		</table>
+		<table><!--TABLE DO RESUMO DO PEDIDO-->
+			<tbody>
+				<tr>
+					<td>
+						<table class="total">
+							<thead>
+								<tr><!--COMANDA-->
+									<th class="number">Quatidade</th>
+									<th class="tipo">Tipo</th>
+									<th class="valor">Valor</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><!--PEDIDO DE INTEIRA-->
+									<td class="number2" id="qtdint">0</td>
+									<td class="tipo2" id="tipoint">Entrada Inteira</td>
+									<td class="valoraux" id="valint">R$ 0</td>
+								</tr>
+								<tr><!--PEDIDO DE MEIA-->
+									<td class="number2" id="qtdmeia">0</td>
+									<td class="tipo2" id="tipomeia">Meia Entrada</td>
+									<td class="valoraux" id="valmeia">R$ 0</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+					<td class="space"></td>
+					<td>
+						<table class="total"><!--ENCERRAMENTO DO PEDIDO-->
+							<thead>
+								<tr><!--SUBTOTAL-->
+									<td class="subtotal">Subtotal</td>
+									<td class="subaux" id="subtot"></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><!--TOTAL-->
+									<td class="total">Total</td>
+									<td class="totaux" id="tot"></td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<script type="text/javascript" src="Cinema.js"></script>
+	</body>
+</html>

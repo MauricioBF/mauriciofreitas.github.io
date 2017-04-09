@@ -1,0 +1,162 @@
+caption{
+	border-style: double;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #282828;
+	background-color: #C0C0C0;
+	padding-left: 250px;
+	padding-right: 250px;
+	font-size: 30px;
+}
+.space{
+	padding: 20px;
+}
+.number{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 50px;
+	font-style: oblique;
+}
+.tipo{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 100px;
+	font-style: oblique;
+}
+.valor{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 50px;
+	font-style: oblique;
+}
+.total{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 40px;
+	font-style: oblique;
+}
+.totalaux{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 40px;
+	font-style: oblique;
+}
+.subtotal{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 40px;
+	font-style: oblique;
+}
+.subaux{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 40px;
+	font-style: oblique;
+}
+.number2{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 100px;
+}
+.tipo2{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 50px;
+}
+.valoraux{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 50px;
+	font-style: oblique;
+}
+.subtotal2{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #000000;
+	padding-left: 10px;
+	padding-right: 40px;
+}
+.limpo{
+	padding: 16px;
+}
+.lugar{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-color: #000000;
+	padding: 16px;
+}
+.lugar2{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #00FF7F;
+	padding: 16px;
+}
+.lugar3{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #FF0000;
+	padding: 16px;
+}
+.nova{
+	padding: 15px;
+}
+.originput{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #00FF7F;
+	background-color: #00FF7F;
+	padding: 10px;
+}
+.auxinput{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: #FF0000;
+	background-color: #FF0000;
+	padding: 10px;
+}
+.turn{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.turn2{
+	padding-left: 150px;
+	padding-right: 150px;
+}
