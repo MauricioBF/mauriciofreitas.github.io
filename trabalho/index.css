@@ -1,0 +1,11 @@
+#postagem{
+  border-style: none;
+  align-items: flex-start;
+}
+#pst{
+  padding: 20px;
+  border-style: double;
+  border-width: 10px;
+  border-color: black;
+}
+ 
